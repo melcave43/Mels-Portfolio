@@ -2,6 +2,8 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --branding-color: rgb(140, 140, 228);
+    --tri-color: #8781fd;
+    --quad-color: #aca8ff;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -58,8 +60,15 @@ p {
 }
 
 .about-link {
+    background: var(--tri-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color);
+}
+
+.mywork-link {
+    background: var(--quad-color);
+    box-shadow: var(--box-shadow);
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
