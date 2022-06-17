@@ -4,6 +4,7 @@
     --branding-color: rgb(140, 140, 228);
     --tri-color: #8781fd;
     --quad-color: #aca8ff;
+    --five-color: #ba59fb;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -111,5 +112,18 @@ h3 {
 }
 
 .email-link:hover {
+    text-decoration: underline;
+}
+
+.web-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: var(--five-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.web-link:hover {
     text-decoration: underline;
 }
